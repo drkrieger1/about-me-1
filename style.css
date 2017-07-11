@@ -1,3 +1,22 @@
 * {
-  color:blue;
+  color:#cc3524;
+  font-family:sans-serif;
+
+}
+img {
+  height:50px;
+  width: 50px;
+}
+body {
+    background-color:#ffedb8;
+}
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px dashed #cc3524;
+    padding: 25px;
+    margin: 25px;
+}
+h1 {
+    padding-left: 25px;
 }
