@@ -71,21 +71,36 @@
  }
 //question 7
 
- var mycars = ['kia' , 'volkswagon' ,'honda'];
+ var mycar1 = 'kia';
+ var mycar2 = 'honda';
+ var mycar3 = 'volkswagon';
  var carguess = 6;
  while(carguess > 0){
    var userCarGuess = prompt('Name the make of a car that I have owned').toLowerCase();
    console.log(userCarGuess);
-   for(var j = 0; j < mycars.length; j++){
-     if(userCarGuess === mycars[j]){
+   //for(var j = 0; j < 6; j++){
+     if(userCarGuess === mycar1){
        alert('Correct!!');
        console.log(carguess);
+       console.log(j);
+     }else if(userCarGuess === mycar2){
+        alert('Correct!!');
+        console.log(carguess);
+        console.log(j);
+      }else if(userCarGuess === mycar3){
+         alert('Correct!!');
+         console.log(carguess);
+         //console.log(j);
+}else alert('you are incorrect');
+ carguess--;
+  console.log(carguess);
 
-     }
-   }
- }
- if (userCarGuess !== mycars){
-   alert('you are incorrect');
-   carguess--;
+}
 
- }
+
+
+ // if (userCarGuess !== mycars){
+ //   alert('you are incorrect');
+ //   carguess--;
+ //}
+ //}
