@@ -13,7 +13,7 @@
  }
 //second question
  var pie = prompt('Is pumpkin pie my favorite?').toLowerCase();
- if(pie === 'no'){alert('Thats right! Not a fan of pumpkin I LOVE sweet potato pie though!');
+ if(pie === 'no' ){alert('Thats right! Not a fan of pumpkin I LOVE sweet potato pie though!');
    console.log('correct');
  }else{alert('Pumpkin? Gross!!');
    console.log('Pumpkin? Gross!!');
