@@ -65,6 +65,7 @@
    }else if(userNumGuess === mynum){
      alert('You guessed it!! ' + mynum + ' is my Fav number!');
      console.log(username + ' guessed correctly');
+
    }else{
      alert('Invalid Input');
    }
@@ -79,23 +80,23 @@
    var userCarGuess = prompt('Name the make of a car that I have owned').toLowerCase();
    console.log(userCarGuess);
    //for(var j = 0; j < 6; j++){
-     if(userCarGuess === mycar1){
-       alert('Correct!!');
-       console.log(carguess);
-       console.log(j);
-     }else if(userCarGuess === mycar2){
-        alert('Correct!!');
-        console.log(carguess);
-        console.log(j);
-      }else if(userCarGuess === mycar3){
-         alert('Correct!!');
-         console.log(carguess);
-         //console.log(j);
-}else alert('you are incorrect');
- carguess--;
-  console.log(carguess);
+   if(userCarGuess === mycar1){
+     alert('Correct!!');
+     console.log(carguess);
+     console.log(j);
+   }else if(userCarGuess === mycar2){
+     alert('Correct!!');
+     console.log(carguess);
+     //console.log(j);
+   }else if(userCarGuess === mycar3){
+     alert('Correct!!');
+     console.log(carguess);
+           //console.log(j);
+   }else alert('you are incorrect');
+   carguess--;
+   console.log(carguess);
 
-}
+ }
 
 
 
